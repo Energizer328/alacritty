@@ -1,0 +1,45 @@
+import = [
+	"~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[env]
+TERM = "alacritty"
+
+[[keyboard.bindings]]
+action = "Quit"
+key = "Q"
+mods = "Control|Shift"
+
+[scrolling]
+history = 1500
+multiplier = 3
+
+[window]
+decorations = "none"
+dynamic_title = true
+opacity = 0.95
+startup_mode = "Maximized"
+title = "Alacritty"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[font]
+size = 14
+
+[font.bold]
+family = "MesloLGLDZ Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "MesloLGLDZ Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "MesloLGLDZ Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "MesloLGLDZ Nerd Font Mono"
+style = "Regular"
