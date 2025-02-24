@@ -2,11 +2,6 @@
 [env]
 TERM = "alacritty"
 
-[[keyboard.bindings]]
-action = "Quit"
-key = "Q"
-mods = "Control|Shift"
-
 [scrolling]
 history = 1500
 multiplier = 3
@@ -23,22 +18,22 @@ general = "Alacritty"
 instance = "Alacritty"
 
 [font]
-size = 14
+size = 18
 
 [font.bold]
-family = "MesloLGLDZ Nerd Font Mono"
+family = "MesloLGS NF"
 style = "Bold"
 
 [font.bold_italic]
-family = "MesloLGLDZ Nerd Font Mono"
+family = "MesloLGS NF"
 style = "Bold Italic"
 
 [font.italic]
-family = "MesloLGLDZ Nerd Font Mono"
+family = "MesloLGS NF"
 style = "Italic"
 
 [font.normal]
-family = "MesloLGLDZ Nerd Font Mono"
+family = "MesloLGS NF"
 style = "Regular"
 
 [general]
